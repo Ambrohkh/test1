@@ -1,0 +1,228 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../img/background.jpg);
+}
+#avenges{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1100px;
+    height: 600px;
+    margin: 220px auto;
+    background-image: url(../img/HG04iv.jpg);
+}
+.iron_man{
+    width: 85%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+    background-image: url(../img/vs.jpg);
+    background-position: inherit;
+}
+.menu_button{
+    position: absolute;
+    top: 18px;
+    left: 84px;
+    width: 35px;
+}
+.avengers{
+    position: absolute;
+    top: 17px;
+    left: 455px;
+    width: 40px;
+}
+#avenges > p{
+    position: absolute;
+    top: 2px;
+    left: 491px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: cursive;
+    font-style: italic;
+}
+.cap,
+.spider,
+.iron{
+    transform: rotate(270deg);
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.cap::after{
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 142px;
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 50px;
+}
+.spider::after{
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    left: 98px;
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 50px;
+}
+.cap{
+    position: absolute;
+    bottom: 169px;
+    left: -8px;
+    z-index: 3;
+}
+.spider{
+    position: absolute;
+    top: 253px;
+    left: 9px;
+    z-index: 3;
+}
+.iron{
+    position: absolute;
+    top: 127px;
+    left: 15px;
+    z-index: 3;
+}
+.iron:hover{
+    color: red;
+}
+.spider:hover{
+    color: red;
+}
+.cap:hover{
+    color: red;
+}
+.circle_menu{
+    position: absolute;
+    top: 270px;
+    right: 13px;
+    width: 57px;
+}
+.iron_man_img{
+    position: absolute;
+    top: 100px;
+    left: 260px;
+    width: 267px;
+    z-index: 2;
+}
+.white{
+    width: 35%;
+    height: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.black{
+    width: 70%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+    position: relative;
+}
+.marvel{
+    position: absolute;
+    top: 69px;
+    left: 126px;
+    font-size: 101px;
+    text-transform: uppercase;
+    font-weight: bold;
+    z-index: 1;
+    font-family: Corbel;
+    letter-spacing: 3px;
+}
+.iron1{
+    color: orangered;
+}
+.man1{
+    color: white;
+    padding-left: 32px;
+}
+.border{
+    width: 55px;
+    height: 3px;
+    background: orangered;
+    margin-left: 52px;
+    margin-top: 58px;
+}
+.info{
+    line-height: 1.5;
+    padding-left: 61px;
+    padding-bottom: 36px;
+    font-size: 10px;
+}
+.info > p > span{
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+.between{
+    height: 1px;
+    width: 220px;
+    background: grey;
+    left: 143px;
+    top: 462px;
+    position: absolute;
+}
+.kill_thanos {
+    background: orangered;
+    width: 200px;
+    height: 41px;
+    border-radius: 2px;
+    border: none;
+    margin-right: 88px;
+    color: white;
+}
+.orange_{
+    background: orangered;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 80px;
+    margin-right: 100px;
+}
+.avengers_now{
+    position: absolute;
+    bottom: 45px;
+    right: 110px;
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+.avengers_now::after{
+    content: '';
+    position: absolute;
+    bottom: 4px;
+    left: 185px;
+    width: 5px;
+    height: 5px;
+    background: grey;
+    border-radius: 50px;
+}
+.arrow{
+    position: absolute;
+    width: 20px;
+    right: 64px;
+    bottom: 41px;
+}
+.line{
+    position: absolute;
+    top: 83px;
+    right: 90px;
+    width: 15px;
+    height: 2px;
+    background: beige;
+}
